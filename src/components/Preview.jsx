@@ -55,7 +55,6 @@ const Preview = ({ token, onJoin, env, skipPreview, initialName }) => {
       isAudioMuted: skipPreview ? true : previewPreference.isAudioMuted,
       isVideoMuted: skipPreview ? true : previewPreference.isVideoMuted,
     },
-    captureNetworkQualityInPreview: true,
   });
 
   const savePreferenceAndJoin = useCallback(() => {
